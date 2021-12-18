@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #222222;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+#cross {
+  background: #2d9cdb;
+  height: 90px;
+  position: relative;
+  width: 30px;
+  transform: rotate(130deg);
+  position: absolute;
+  left: 230px;
+  top: 140px;
+}
+#cross:after {
+  background: #2d9cdb;
+  content: "";
+  height: 30px;
+  position: absolute;
+  width: 100px;
+}
+#cross2 {
+  background: #f2994a;
+  height: 90px;
+  position: relative;
+  width: 30px;
+  transform: rotate(-50deg);
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+#cross2:after {
+  background: #f2994a;
+  content: "";
+  height: 30px;
+  position: absolute;
+  width: 100px;
+}
